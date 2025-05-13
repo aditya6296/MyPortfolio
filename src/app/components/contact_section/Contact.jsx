@@ -20,15 +20,17 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission (You can integrate an API here for form handling)
     setFormStatus("Thank you for reaching out!");
-    setFormData({ name: "", email: "", message: "" }); // Clear form after submission
+    setFormData({ name: "", email: "", message: "" });
   };
   return (
-    <section id="contact" className="py-20 px-4 bg-white text-center">
+    <section
+      id="contact"
+      className=" sm:py-16 md:py-20 px-4 bg-gray-100 text-center"
+    >
       <motion.section
         id="contact"
-        className="py-20 bg-gray-100"
+        className="py-10 bg-gray-100"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -36,7 +38,7 @@ export default function Contact() {
       >
         <div className="text-center">
           <motion.h2
-            className="text-3xl font-bold mb-8"
+            className="text-3xl font-bold md:mb-8 text-black"
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
@@ -54,7 +56,7 @@ export default function Contact() {
           >
             <form
               onSubmit={handleSubmit}
-              className="space-y-6 rounded-2xl px-20 py-8 bg-gray-200 m-auto"
+              className="space-y-6 rounded-2xl px-5 sm:px-20 md:px-20 py-8 bg-gray-200 m-auto text-black"
             >
               <motion.div
                 className="flex flex-col"
@@ -99,7 +101,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="Enter your email"
-                  className="border border-gray-300 rounded-lg p-3 px-4 bg-[rgba(248,250,252,1)]"
+                  className="border border-gray-300 rounded-lg p-3 px-4 bg-[rgba(248,250,252,1)] text-black"
                   required
                 />
               </motion.div>

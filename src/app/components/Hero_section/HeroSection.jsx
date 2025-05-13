@@ -22,7 +22,7 @@ function HeroSection() {
   const title = "Full Stack Developer | Tech Enthusiast";
 
   return (
-    <section className="py-10 px-4 bg-[url('/ba.avif')] bg-cover bg-center bg-no-repeat">
+    <section className="py-10 px-4 bg-[url('/ba.avif')] bg-cover bg-center bg-no-repeat sm:py-16 md:pt-28 text-center">
       <div className="flex flex-col md:flex-row items-center justify-around max-w-5xl mx-auto">
         <motion.div
           className="text-center md:text-left md:w-1/2"
@@ -32,7 +32,7 @@ function HeroSection() {
           variants={container}
         >
           <motion.h1
-            className="text-5xl md:text-6xl font-bold mb-4"
+            className="text-5xl md:text-6xl font-bold mb-4 text-black"
             variants={container}
           >
             <div className="flex flex-wrap gap-2">
@@ -57,7 +57,7 @@ function HeroSection() {
           </motion.h1>
 
           <motion.p
-            className="text-xl md:text-2xl mb-6 flex flex-wrap gap-2"
+            className="text-xl md:text-2xl mb-6 flex flex-wrap gap-2 text-black"
             variants={container}
           >
             {title.split(" ").map((word, i) => (
@@ -96,7 +96,7 @@ function HeroSection() {
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
-              className=" hover:text-black transition"
+              className=" text-black transition"
             >
               <FaGithub className="text-3xl" />
             </a>

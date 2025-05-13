@@ -77,9 +77,9 @@ export default function Skills() {
       transition={{ duration: 1 }}
       viewport={{ once: true }}
     >
-      <h2 className="text-4xl font-bold text-center mb-8">Skills</h2>
+      <h2 className="text-4xl font-bold text-center mb-8 text-black">Skills</h2>
       {/* <div className="flex gap-20 m-auto justify-around px-8"> */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-y-12 gap-x-8 px-8 max-w-5xl mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-y-12 gap-x-8 px-8 max-w-5xl mx-auto text-black">
         {skills.map((skill, index) => (
           <motion.div
             key={skill.name}

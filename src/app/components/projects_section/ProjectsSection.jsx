@@ -29,7 +29,7 @@ export default function Projects() {
         viewport={{ once: false }}
       >
         <h2 className="text-4xl font-bold mb-10">My Projects</h2>
-        <div className="flex max-w-[800px] gap-8 m-auto">
+        <div className="flex flex-wrap md:flex-nowrap max-w-[800px] gap-8 m-auto text-black">
           {projects.map((project, index) => (
             <div
               key={index}

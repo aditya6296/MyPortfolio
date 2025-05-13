@@ -10,7 +10,7 @@ export default function Home() {
    <>
    
    <Navbar />
-   <main className="pt-20">
+   <main className="">
    <HeroSection />
    
    <Skills />

@@ -10,7 +10,7 @@ export default function AboutMe() {
         viewport={{ once: false }}
       >
         <div className="max-w-5xl mx-auto px-6 py-6 text-center ">
-          <h2 className="text-4xl font-bold pb-2">About Me</h2>
+          <h2 className="text-4xl font-bold pb-2 text-black">About Me</h2>
           <p className="text-xl text-gray-800 leading-9 relative before:content-['“'] after:content-['”'] before:text-5xl after:text-5xl before:absolute after:absolute before:-left-6 after:-right-6">
             I'm{" "}
             <span className="font-semibold text-blue-600">Aditya Kumar</span>, a
