@@ -35,7 +35,7 @@ function HeroSection() {
             className="text-5xl md:text-6xl font-bold mb-4 text-black"
             variants={container}
           >
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mt-20">
               {"Hi, I’m".split(" ").map((word, i) => (
                 <motion.span key={i} variants={wordAnimation}>
                   {word}
