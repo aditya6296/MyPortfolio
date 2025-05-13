@@ -7,14 +7,14 @@ export default function Projects() {
     {
       title: "Square Foundation",
       description:
-        "A full-stack e-commerce website built using React, Node.js, and MongoDB.",
+        "Square Foundation is a comprehensive web application designed to streamline the process of applying for and managing scholarships. Built using the MERN stack, this platform enables students to explore and apply for scholarships, while administrators can efficiently manage applications, post new opportunities, and oversee users through a dedicated admin dashboard.",
       link: "https://square-foundation-frontend.vercel.app",
       image: "/square-foundation.svg",
     },
     {
       title: "Quiz App",
       description:
-        "A blog platform built using the MERN stack that allows users to create, edit, and delete posts.",
+        "A simple and elegant quiz app built with React.js that features auto-switching questions using a countdown timer and real-time score tracking. Designed with a responsive layout for all devices.",
       link: "https://quiz-project-46fj.vercel.app",
       image: "/quiz-app.svg",
     },
