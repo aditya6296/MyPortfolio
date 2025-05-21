@@ -22,7 +22,10 @@ function HeroSection() {
   const title = "Full Stack Developer | Tech Enthusiast";
 
   return (
-    <section id="home" className="py-10 px-4 bg-[url('/ba.avif')] bg-cover bg-center bg-no-repeat sm:py-16 md:pt-28 text-center">
+    <section
+      id="home"
+      className="py-10 px-4 bg-[url('/ba.avif')] bg-cover bg-center bg-no-repeat sm:py-16 md:pt-28 text-center"
+    >
       <div className="flex flex-col md:flex-row items-center justify-around max-w-5xl mx-auto">
         <motion.div
           className="text-center md:text-left md:w-1/2"
@@ -85,7 +88,7 @@ function HeroSection() {
           </div>
           <div className="flex space-x-8 justify-start mt-8">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/aditya-kumar-26a163255/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 transition"
@@ -93,7 +96,7 @@ function HeroSection() {
               <FaLinkedin className="text-3xl" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/aditya6296"
               target="_blank"
               rel="noopener noreferrer"
               className=" text-black transition"
