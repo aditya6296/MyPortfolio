@@ -26,7 +26,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className=" sm:py-16 md:py-20 px-4 bg-gray-100 text-center"
+      className=" sm:py-16 md:py-20 px-4 bg-gray-100 text-center scroll-mt-15 sm:scroll-mt-0"
     >
       <motion.section
         id="contact"

@@ -22,7 +22,7 @@ function HeroSection() {
   const title = "Full Stack Developer | Tech Enthusiast";
 
   return (
-    <section className="py-10 px-4 bg-[url('/ba.avif')] bg-cover bg-center bg-no-repeat sm:py-16 md:pt-28 text-center">
+    <section id="home" className="py-10 px-4 bg-[url('/ba.avif')] bg-cover bg-center bg-no-repeat sm:py-16 md:pt-28 text-center">
       <div className="flex flex-col md:flex-row items-center justify-around max-w-5xl mx-auto">
         <motion.div
           className="text-center md:text-left md:w-1/2"
