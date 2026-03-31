@@ -1,24 +1,25 @@
-import HeroSection from "./components/Hero_section/HeroSection"
-import Projects from "../app/components/projects_section/ProjectsSection"
-import AboutMe from "../app/components/About_section/AboutMe"
-import Contact from "../app/components/contact_section/Contact"
-import Footer from "../app/components/Footer_section/Footer"
-import Navbar from "../app/components/Nav_section/Navbar"
-import Skills from "../app/components/skills_section/Skills"
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import AboutSection from "./components/AboutSection";
+import SkillsSection from "./components/SkillsSection";
+import ProjectsSection from "./components/ProjectsSection";
+import ExperienceSection from "./components/ExperienceSection";
+import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
+
 export default function Home() {
   return (
-   <>
-   
-   <Navbar />
-   <main className="">
-   <HeroSection />
-   
-   <Skills />
-   <Projects />
-   <AboutMe />
-   <Contact />
-   <Footer />
-   </main>
-   </>
+    <>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <SkillsSection />
+        <ProjectsSection />
+        <ExperienceSection />
+        <ContactSection />
+      </main>
+      <Footer />
+    </>
   );
 }
